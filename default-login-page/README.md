@@ -1,0 +1,5 @@
+#使用spring security的默认登录页面
+只需要引入相关依赖，spring security默认提供了登录页面，直接访问应用地址即可
+
+原理理解：
+spring security 会为地址/login提供一个get请求()用于返回登录页面和一个post请求用于处理登录页面提交用户密码信息
